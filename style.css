@@ -27,6 +27,8 @@ h3{
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    border: 1px solid #2a3a54;
+    border-radius: 20px;
 }
 
 .topnav .search-container{
@@ -70,3 +72,20 @@ input{
     text-align: center;
     background-color: #151f30;
 }
+
+.footer{
+    text-align: center;
+}
+
+.footer a{
+    text-align: center;
+    text-decoration: none;
+    color: white;    
+}
+
+.footer hr{
+    width: 95%;
+}
+
+
+
