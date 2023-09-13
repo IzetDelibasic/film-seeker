@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 :root{
     --first-color:#131720;
     --second-color: #151f30;
@@ -9,16 +8,13 @@
     --title-color:rgb(163, 181, 172);
     --white-color: #fff;
 }
-
 body{
     background-color: var(--first-color);
     font-family: sans-serif;
 }
-
 h3{
     color:var(--white-color);
 }
-
 .topnav {
     overflow: hidden;
     background-color: var(--first-color);
@@ -27,7 +23,6 @@ h3{
     justify-content: space-between; 
     align-items: center;
 }
-
 .topnav .active {
     display: block;
     color: var(--white-color);
@@ -39,7 +34,6 @@ h3{
     border: 1px solid var(--third-color);
     border-radius: 20px;
 }
-
 .topnav .active-title {
     color:var(--title-color);
     text-align: center;
@@ -49,12 +43,10 @@ h3{
     display: block;
     margin: 0 auto;
 }
-
 .topnav .search-container {
     display: flex;
     align-items: center;
 }
-
 form {
     background-color: var(--second-color);
     width: 300px;
@@ -63,7 +55,6 @@ form {
     display: flex;
     align-items: center;
 }
-
 input {
     all: unset;
     font: 15px system-ui;
@@ -72,52 +63,47 @@ input {
     width: 100%;
     padding: 6px 9px;
 }
-
-.thumbnail{
+.thumbnail {
     height: 300px;
     width: 250px;
     border-radius: 20px;
+    cursor: pointer;
 }
-
 .column{
     float: left;
     width: 25%;
     padding: 10px 10px;
 }
-
 .card{
     border-radius: 19px;
     padding: 15px;
     text-align: center;
     background-color: var(--second-color);
 }
-
 .footer{
     text-align: center;
 }
-
 .footer a{
     text-align: center;
     text-decoration: none;
     color:var(--white-color);    
 }
-
 .footer hr{
     width: 95%;
 }
-
+.red-border {
+    border: 2px solid red; /* Crveni okvir */
+}
 @media (max-width: 768px) {
     .topnav {
         padding: 5px;
         display: flex; 
         flex-direction: column; 
     }
-
     .active {
         margin-right: auto;
         margin-left: auto; 
     }
-
     .active-title {
         clear: both;
         padding-top: 15px;
@@ -131,8 +117,7 @@ input {
     .thumbnail {
         width: 100%; 
         height: auto; 
-    }
-    
+    }    
     .card {
         padding: 10px; 
     }
